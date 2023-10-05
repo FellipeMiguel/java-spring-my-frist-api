@@ -16,7 +16,7 @@ public class UserRepository {
     }
 
     public void deleteById(Integer id) {
-        System.out.println(String.format("DELETE/id - Recebendo o id: %d para excluir um usuário"));
+        System.out.printf("DELETE/id - Recebendo o id: %d para excluir um usuário%n", id);
         System.out.println(id);
     }
 
